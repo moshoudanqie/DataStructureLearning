@@ -81,11 +81,6 @@ status CleanList(LinkList L){
 //	return ;
 //}
 
-LinkList MergeList(LinkList La,LinkList Lb,LinkList Lc){
-	
-	//合并两个链表并且排序 
-}
-
 void BubbleSort(LinkList L){
 	int length=0,i;
 	LinkList cursor = L->next,p,q;
@@ -112,6 +107,29 @@ void BubbleSort(LinkList L){
 }
 
 
+LinkList MergeList(LinkList La,LinkList Lb){
+	BubbleSort(La);
+	BubbleSort(Lb);
+	LinkList Lc=La,pc = La;
+	LinkList pa = La->next,
+			pb = Lb->next;
+	while (pa && pb) {
+		if (pa->data > pb->data) {
+			pc->next = pb;
+			pc = pc->next;
+			pb = pb->next;
+		}
+		else {
+			pc->next = pa;
+			pc = pc->next;
+			pa = pa->next;
+		}
+	}
+	pc->next = pa ? pa : pb;
+	free(Lb);
+	return Lc;
+	//合并两个链表并且排序 
+}
 
 void Print(LinkList L){
 	if(!L)
@@ -126,16 +144,20 @@ void Print(LinkList L){
 }//打印链表元素
  
 int main() {
-	LinkList L;
-	L = CreatList(5);
-	Print(L);
-	InsertList(L,3,9);
-	Print(L);
-	DeleteList(L,5);
-	BubbleSort(L);
-	Print(L);
+	LinkList La,Lb,Lc;
+	La = CreatList(5);
+	Print(La);
+	Lb = CreatList(5);
+	Print(Lb);
+	Lc = MergeList(La, Lb);
+	Print(Lc);
+	//InsertList(L,3,9);
+	//Print(L);
+	//DeleteList(L,5);
+	//BubbleSort(L);
+	//Print(L);
 //	DestroyList(L);
-	free(L);
+	free(Lc);
 	return 0;
 
 }
