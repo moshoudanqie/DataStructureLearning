@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\02链表">
+      <UniqueIdentifier>{e7503355-bd43-4e6d-815e-b1d2f58d642f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\03栈">
+      <UniqueIdentifier>{dd050c1d-984a-4b07-916b-4f9da039a777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\04队列">
+      <UniqueIdentifier>{44ae1e5a-1739-4aa4-8181-e23dac901627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\05串">
+      <UniqueIdentifier>{c1c410df-48a2-40da-ae5f-05ca264a8ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\01顺序表">
+      <UniqueIdentifier>{0394e8d5-a0fd-4053-a237-e3f9bfe670cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SqList_func.c">
+      <Filter>源文件\01顺序表</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList_func.c">
+      <Filter>源文件\02链表</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
