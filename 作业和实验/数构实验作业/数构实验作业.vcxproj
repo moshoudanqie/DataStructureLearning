@@ -127,8 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="单链表上的排序运算FUNC.c" />
-    <ClCompile Include="单链表上的排序运算MAIN.c" />
+    <ClCompile Include="一元多项式加减运算器FUNC.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="单链表上的排序运算FUNC.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="单链表上的排序运算MAIN.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="约瑟夫问题.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="单链表上的排序运算.h" />

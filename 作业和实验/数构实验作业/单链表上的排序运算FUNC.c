@@ -9,6 +9,7 @@ typedef struct Lnode{
 }Lnode,*LinkList;
 
  LinkList ListCreat() {
+	 printf("Please enter the sequence,enter '0' to end:\n");
 	 LinkList L = (LinkList)malloc(sizeof(Lnode));
 	 L->next = NULL;
 	 while (1) {

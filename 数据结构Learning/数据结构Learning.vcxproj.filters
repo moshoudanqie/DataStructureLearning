@@ -36,5 +36,11 @@
     <ClCompile Include="LinkList_func.c">
       <Filter>源文件\02链表</Filter>
     </ClCompile>
+    <ClCompile Include="StLinkList_func.c">
+      <Filter>源文件\02链表</Filter>
+    </ClCompile>
+    <ClCompile Include="DuLinkList_func.c">
+      <Filter>源文件\02链表</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
