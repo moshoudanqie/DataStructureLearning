@@ -4,8 +4,7 @@
 
 typedef struct DuLNode{
 	Elemtype data;
-	struct DuLNode* prior;
-	struct DuLNode* next;
+	struct DuLNode* prior,* next;
 }DuLNode,*DuLinkList;		//定义双向链表节点结构体
 
 DuLinkList MakeNode(Elemtype e) {

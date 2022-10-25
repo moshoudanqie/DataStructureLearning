@@ -22,6 +22,9 @@
     <Filter Include="源文件\实验一_题目四_多项式">
       <UniqueIdentifier>{087f1a1b-fb65-48fe-9d55-b7f4a84f93f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\实验二">
+      <UniqueIdentifier>{4813cf93-b9d0-489e-b1f3-5d43b8f5cf6d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="单链表上的排序运算FUNC.c">
@@ -35,6 +38,15 @@
     </ClCompile>
     <ClCompile Include="约瑟夫问题.c">
       <Filter>源文件\实验一_题目3_约瑟夫问题</Filter>
+    </ClCompile>
+    <ClCompile Include="题目一_数制转换.c">
+      <Filter>源文件\实验二</Filter>
+    </ClCompile>
+    <ClCompile Include="题目二_括号配对.c">
+      <Filter>源文件\实验二</Filter>
+    </ClCompile>
+    <ClCompile Include="题目三_停车场管理.c">
+      <Filter>源文件\实验二</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

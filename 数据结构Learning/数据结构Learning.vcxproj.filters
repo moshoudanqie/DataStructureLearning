@@ -28,6 +28,9 @@
     <Filter Include="源文件\01顺序表">
       <UniqueIdentifier>{0394e8d5-a0fd-4053-a237-e3f9bfe670cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\08树">
+      <UniqueIdentifier>{9d2d0247-9dea-44f5-b6be-f3129ec32a58}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SqList_func.c">
@@ -42,5 +45,23 @@
     <ClCompile Include="DuLinkList_func.c">
       <Filter>源文件\02链表</Filter>
     </ClCompile>
+    <ClCompile Include="CirLinkList.c">
+      <Filter>源文件\02链表</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.c">
+      <Filter>源文件\03栈</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.c">
+      <Filter>源文件\03栈</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkQueue.c">
+      <Filter>源文件\03栈</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="文本.txt" />
   </ItemGroup>
 </Project>
